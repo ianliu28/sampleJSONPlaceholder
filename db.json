@@ -1,0 +1,480 @@
+{
+  "passProducts": [
+    {
+      "id": 1,
+      "productName": "Canmore Nordic Centre Ski Pass",
+      "shortDescription": "Gain access to Canmore Nordic Centre Ski Pass and the description goes here.",
+	  "detailDescription": "",
+	  "displayOrder": 1,
+	  "productImages": ["7l9gyh7ojc94o.jpg","jjokzt5rx9wpr.jpg","yptczgzfhppbn.jpg","1dglg8n9rw1go.jpg"],
+	  "termsAndConditions": "TODO - Terms and Conditions Ddscription"
+    },
+    {
+      "id": 2,
+      "productName": "Cypress Hills Hidden Valley Ski Pass",
+      "shortDescription": "Gain access to Cypress Hills Hidden Valley Ski Pass and the description goes here.",
+	  "detailDescription": "",
+	  "displayOrder": 2,
+	  "productImages": ["c2hj07js03nke.jpg","g9csfsrhyyqgw.jpg","zw87f9mv9y2xe.jpg"],
+	  "termsAndConditions": "TODO - Terms and Conditions Ddscription"
+    },
+    {
+      "id": 3,
+      "productName": "Kananaski Country Access Pass",
+      "shortDescription": "Gain access to Kananaski Country and the description goes here.",
+	  "detailDescription": "",
+	  "displayOrder": 3,
+	  "productImages": ["lui0n5mgzjdwc.jpg","6bxc39sa69pl9.jpg","jpn088besssbk.jpg"],
+	  "termsAndConditions": "TODO - Terms and Conditions Ddscription"
+    }	
+  ],
+   "passTypes": [
+    {
+      "code":"SN",
+      "description":"Seasonal"
+    },
+    {
+      "code":"DY",
+      "description":"Day"
+    }
+  ],
+  "passCategory": [
+    {
+      "code":"FMY",
+      "description":"Family"
+    },
+    {
+      "code": "SNR",
+      "description": "Senior"
+    },
+    {
+      "code": "ADL",
+      "description": "Adult"
+    },
+    {
+      "code": "YTH",
+      "description": "Youth"
+    },
+    {
+      "code": "CHD",
+      "description": "Child"
+    },
+    {
+      "code": "UD6",
+      "description": "Children Under 6"
+    }
+  ],  
+  "productFees": [
+	{
+		"feeTypeCode": "CNC_SKI_PASS_SN_FMY",
+		"passProductId": 1,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "FMY",
+		"amount": 590,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_SN_SNR",
+		"passProductId": 1,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "SNR",
+		"amount": 120,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_SN_ADL",
+		"passProductId": 1,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "ADL",
+		"amount": 180,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_SN_YTH",
+		"passProductId": 1,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "YTH",
+		"amount": 140,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_SN_CHD",
+		"passProductId": 1,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "CHD",
+		"amount": 120,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_SN_CHDUD6",
+		"passProductId": 1,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "UD6",
+		"amount": 0,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_PASS_SN_TRNS_FEE",
+		"passProductId": 1,
+		"passTypeCode": "SEASONAL",
+		"transactionFeeInd": true,
+		"amount": 10,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_DY_FMY",
+		"passProductId": 1,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "FMY",
+		"amount": 39,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_DY_SNR",
+		"passProductId": 1,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "SNR",
+		"amount": 15,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_DY_ADL",
+		"passProductId": 1,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "ADL",
+		"amount": 18,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_DY_YTH",
+		"passProductId": 1,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "YTH",
+		"amount": 15,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_DY_CHD",
+		"passProductId": 1,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "CHD",
+		"amount": 9,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CNC_SKI_PASS_DY_CHDUD6",
+		"passProductId": 1,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "UD6",
+		"amount": 0,
+		"unit": "DOLLAR"
+	},	
+	{
+		"feeTypeCode": "CNC_PASS_DY_TRNS_FEE",
+		"passProductId": 1,
+		"passTypeCode": "DAY",
+		"transactionFeeInd": true,
+		"amount": 2,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "PASS_PRCHS_CNCL_FEE",
+		"passProductId": 1,
+		"passCancellationFeeInd": true,
+		"amount": 20,
+		"unit": "PERCENTAGE"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_SN_FMY",
+		"passProductId": 2,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "FMY",
+		"amount": 590,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_SN_SNR",
+		"passProductId": 2,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "SNR",
+		"amount": 120,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_SN_ADL",
+		"passProductId": 2,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "ADL",
+		"amount": 180,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_SN_YTH",
+		"passProductId": 2,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "YTH",
+		"amount": 140,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_SN_CHD",
+		"passProductId": 2,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "CHD",
+		"amount": 120,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_SN_CHDUD6",
+		"passProductId": 2,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "UD6",
+		"amount": 0,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_PASS_SN_TRNS_FEE",
+		"passProductId": 2,
+		"passTypeCode": "SEASONAL",
+		"transactionFeeInd": true,
+		"amount": 10,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_DY_FMY",
+		"passProductId": 2,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "FMY",
+		"amount": 39,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_DY_SNR",
+		"passProductId": 2,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "SNR",
+		"amount": 15,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_DY_ADL",
+		"passProductId": 2,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "ADL",
+		"amount": 18,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_DY_YTH",
+		"passProductId": 2,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "YTH",
+		"amount": 15,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_DY_CHD",
+		"passProductId": 2,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "CHD",
+		"amount": 9,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "CHHV_SKI_PASS_DY_CHDUD6",
+		"passProductId": 2,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "UD6",
+		"amount": 0,
+		"unit": "DOLLAR"
+	},	
+	{
+		"feeTypeCode": "CHHV_PASS_DY_TRNS_FEE",
+		"passProductId": 2,
+		"passTypeCode": "DAY",
+		"transactionFeeInd": true,
+		"amount": 2,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "PASS_PRCHS_CNCL_FEE",
+		"passProductId": 2,
+		"passCancellationFeeInd": true,
+		"amount": 20,
+		"unit": "PERCENTAGE"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_SN_FMY",
+		"passProductId": 3,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "FMY",
+		"amount": 590,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_SN_SNR",
+		"passProductId": 3,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "SNR",
+		"amount": 120,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_SN_ADL",
+		"passProductId": 3,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "ADL",
+		"amount": 180,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_SN_YTH",
+		"passProductId": 3,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "YTH",
+		"amount": 140,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_SN_CHD",
+		"passProductId": 3,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "CHD",
+		"amount": 120,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_SN_CHDUD6",
+		"passProductId": 3,
+		"passTypeCode": "SEASONAL",
+		"passCategoryCode": "UD6",
+		"amount": 0,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_PASS_SN_TRNS_FEE",
+		"passProductId": 3,
+		"passTypeCode": "SEASONAL",
+		"transactionFeeInd": true,
+		"amount": 10,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_DY_FMY",
+		"passProductId": 3,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "FMY",
+		"amount": 39,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_DY_SNR",
+		"passProductId": 3,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "SNR",
+		"amount": 15,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_DY_ADL",
+		"passProductId": 3,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "ADL",
+		"amount": 18,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_DY_YTH",
+		"passProductId": 3,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "YTH",
+		"amount": 15,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_DY_CHD",
+		"passProductId": 3,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "CHD",
+		"amount": 9,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "KC_SKI_PASS_DY_CHDUD6",
+		"passProductId": 3,
+		"passTypeCode": "DAY",
+		"passCategoryCode": "UD6",
+		"amount": 0,
+		"unit": "DOLLAR"
+	},	
+	{
+		"feeTypeCode": "KC_PASS_DY_TRNS_FEE",
+		"passProductId": 3,
+		"passTypeCode": "DAY",
+		"transactionFeeInd": true,
+		"amount": 2,
+		"unit": "DOLLAR"
+	},
+	{
+		"feeTypeCode": "PASS_PRCHS_CNCL_FEE",
+		"passProductId": 3,
+		"passCancellationFeeInd": true,
+		"amount": 20,
+		"unit": "PERCENTAGE"
+	}	
+  ],
+  
+  "availability": [
+    {
+	  "passProductId": 1,
+      "date": "2020-11-27",
+      "available": true
+    },
+    {
+	  "passProductId": 1,
+      "date": "2020-11-28",
+      "available": true
+    },
+    {
+	  "passProductId": 1,
+      "date": "2020-11-29",
+      "available": true
+    },
+    {
+	  "passProductId": 1,
+      "date": "2020-11-30",
+      "available": true
+    },
+    {
+	  "passProductId": 1,
+      "date": "2020-12-01",
+      "available": true
+    },
+    {
+	  "passProductId": 1,
+      "date": "2020-12-02",
+      "available": false
+    },
+    {
+      "date": "2020-12-03",
+      "available": false
+    },
+    {
+	  "passProductId": 1,
+      "date": "2020-12-04",
+      "available": false
+    },
+    {
+	  "passProductId": 1,
+      "date": "2020-12-05",
+      "available": true
+    },
+    {
+	  "passProductId": 1,
+      "date": "2020-12-06",
+      "available": true
+    }
+  ]
+  
+  
+}
